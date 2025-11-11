@@ -1,0 +1,183 @@
+package Home;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class Labels {
+
+    public Labels(JFrame frame) {
+
+        // Founder label
+        JLabel lblC = new JLabel("Founder Dr. Toufique Rahman Chowdhury", SwingConstants.CENTER);
+        lblC.setBounds(640, 90, 340, 25);
+        lblC.setFont(new Font("Arial", Font.BOLD, 16));
+        lblC.setBackground(Color.LIGHT_GRAY);
+        lblC.setForeground(Color.BLACK);
+        frame.add(lblC);
+
+        JLabel lbl1 = new JLabel("\uD83C\uDFC5 Award of Permanent Charter", SwingConstants.CENTER);
+        lbl1.setBounds(295, 230, 410, 35);
+        lbl1.setFont(new Font("Segoe UI Emoji", Font.BOLD, 25));
+        lbl1.setOpaque(true);
+        lbl1.setBackground(Color.LIGHT_GRAY);
+        lbl1.setForeground(Color.BLACK);
+        frame.add(lbl1);
+
+        JLabel lbl2 = new JLabel(
+                "Metropolitan University is the only Private University in Sylhet, Permanently Chartered and Accredited by the Government",
+                SwingConstants.CENTER);
+        lbl2.setBounds(65, 265, 870, 30);
+        lbl2.setFont(new Font("Arial", Font.PLAIN, 16));
+        lbl2.setOpaque(true);
+        lbl2.setBackground(Color.LIGHT_GRAY);
+        frame.add(lbl2);
+
+        JLabel lbl3 = new JLabel(
+                "of the People’s Republic of Bangladesh on 03rd of October 2024 with its Curriculum and programmes approved by the ",
+                SwingConstants.CENTER);
+        lbl3.setBounds(65, 295, 870, 20);
+        lbl3.setFont(new Font("Arial", Font.PLAIN, 16));
+        lbl3.setOpaque(true);
+        lbl3.setBackground(Color.LIGHT_GRAY);
+        frame.add(lbl3);
+
+        JLabel lbl4 = new JLabel("University Grants Commission of Bangladesh.", SwingConstants.CENTER);
+        lbl4.setBounds(65, 315, 870, 30);
+        lbl4.setFont(new Font("Arial", Font.PLAIN, 16));
+        lbl4.setOpaque(true);
+        lbl4.setBackground(Color.LIGHT_GRAY);
+        frame.add(lbl4);
+
+        JLabel lbl5 = new JLabel("Message From The Founder & Chairman Emeritus", SwingConstants.CENTER);
+        lbl5.setBounds(20, 355, 425, 40);
+        lbl5.setFont(new Font("Arial", Font.BOLD, 16));
+        lbl5.setOpaque(true);
+        lbl5.setBackground(Color.CYAN);
+        lbl5.setForeground(Color.BLACK);
+        lbl5.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY));
+        frame.add(lbl5);
+
+        // Founder Name
+        JLabel lbl6 = new JLabel("Dr. Toufique Rahman Chowdhury");
+        lbl6.setBounds(150, 400, 265, 20);
+        lbl6.setFont(new Font("Arial", Font.BOLD, 16));
+        frame.add(lbl6);
+
+        // Speech
+        JLabel lbl7 = new JLabel("The Metropolitan University has traversed");
+        lbl7.setBounds(150, 430, 295, 20);
+        lbl7.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl7);
+
+        JLabel lbl8 = new JLabel(" a length of twenty-one years since its ");
+        lbl8.setBounds(150, 450, 295, 20);
+        lbl8.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl8);
+
+        JLabel lbl9 = new JLabel("inception in May 2003. A decade or more ");
+        lbl9.setBounds(150, 470, 295, 20);
+        lbl9.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl9);
+
+        JLabel lbl10 = new JLabel("added to that can hardly set a tradition,");
+        lbl10.setBounds(150, 490, 295, 20);
+        lbl10.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl10);
+
+        JLabel lbl11 = new JLabel("yet our promises of imparting proper and");
+        lbl11.setBounds(150, 510, 295, 20);
+        lbl11.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl11);
+
+        JLabel lbl12 = new JLabel("adequate higher education have started");
+        lbl12.setBounds(150, 530, 295, 20);
+        lbl12.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl12);
+
+        JLabel lbl13 = new JLabel("bearing fruits. We have been able to make our presence felt,");
+        lbl13.setBounds(20, 550, 435, 20);
+        lbl13.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl13);
+
+        JLabel lbl14 = new JLabel("that is to say, we exist and we are growing as we have ");
+        lbl14.setBounds(20, 570, 435, 20);
+        lbl14.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl14);
+
+        JLabel lbl15 = new JLabel("planned and expected. The launching of the Website of the ");
+        lbl15.setBounds(20, 590, 435, 20);
+        lbl15.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl15);
+
+        JLabel lbl16 = new JLabel("University is definitely a forward leap; we now open up our ");
+        lbl16.setBounds(20, 610, 435, 20);
+        lbl16.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl16);
+
+        JLabel lbl17 = new JLabel("doors to global students. We are working here with devotion");
+        lbl17.setBounds(20, 630, 435, 20);
+        lbl17.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl17);
+
+        JLabel lbl18 = new JLabel("and with a vision for a bright tomorrow. We believe that ");
+        lbl18.setBounds(20, 650, 435, 20);
+        lbl18.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl18);
+
+        JLabel lbl19 = new JLabel("tomorrow will be visibly shining. Please lend us your support");
+        lbl19.setBounds(20, 670, 435, 20);
+        lbl19.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl19);
+
+        JLabel lbl20 = new JLabel("to help us grow as we have chalked out.");
+        lbl20.setBounds(20, 690, 435, 20);
+        lbl20.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl20);
+
+
+        JLabel lbl21 = new JLabel("Message From The Current Chairman Emeritus", SwingConstants.CENTER);
+        lbl21.setBounds(535, 355, 425, 40);
+        lbl21.setFont(new Font("Arial", Font.BOLD, 16));
+        lbl21.setOpaque(true);
+        lbl21.setBackground(Color.CYAN);
+        lbl21.setForeground(Color.BLACK);
+        lbl21.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY));
+        frame.add(lbl21);
+
+        // New Chairman Name
+        JLabel lbl22 = new JLabel("Tanwir Chowdhury");
+        lbl22.setBounds(670, 400, 450, 20);
+        lbl22.setFont(new Font("Arial", Font.BOLD, 16));
+        frame.add(lbl22);
+
+        JLabel lbl23 = new JLabel("Saikat Talukder is Best.");
+        lbl23.setBounds(670, 430, 435, 20); // example position and size
+        lbl23.setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl23);
+        JLabel lbl24 = new JLabel("Thank you for creating this Website. East");
+        lbl24 .setBounds(670, 450, 435, 20); // example position and size
+        lbl24 .setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl24);
+        JLabel lbl25 = new JLabel("or West Saikat is the best.");
+        lbl25 .setBounds(670, 470, 435, 20); // example position and size
+        lbl25 .setFont(new Font("Arial", Font.PLAIN, 16));
+        frame.add(lbl25);
+
+
+
+
+
+
+
+        // Footer stays the same
+        JLabel lbl50 = new JLabel("© Metropolitan University 2025   Legal   Privacy Policy    Cookie Statement    FOLLOW US   Facebook    YouTube", SwingConstants.CENTER);
+        lbl50.setBounds(10, 718, 970, 40);
+        lbl50.setFont(new Font("Arial", Font.BOLD, 16));
+        lbl50.setOpaque(true);
+        lbl50.setBackground(Color.blue);
+        lbl50.setForeground(Color.WHITE);
+        lbl50.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY));
+        frame.add(lbl50);
+
+    }
+}
